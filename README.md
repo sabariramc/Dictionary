@@ -1,6 +1,7 @@
-# Dictionary
-This is my first self-test project
-Softwares required to view models
+Softwares Required to view :
+Code:
+  GUI Code - NetBeans
+Models:
   DB - Oracle SQL Developer Data Modeler
-  GUI - Microsoft Viso 2013
+  GUI - Visio 2013
   UML - ArgoUML
