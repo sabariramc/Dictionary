@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F9796CE-6091-D022-2897-71F1B1865899" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:46:16 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WID" id="F72C94C3-C93B-7498-28EC-BE9034D089EB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:49:19 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>10</autoIncrementCache>
+</Column>
+<Column name="WORD" id="069231EA-42FE-EA09-B6E0-9D38CD6BE355">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:49:19 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYLLABLE" id="6D7C1A66-8C89-65C7-34DE-9945CC7EC52B">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:49:19 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PVFLAG" id="D83A3928-7E55-4790-88BC-B023B2820FB5">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-03-12 15:55:57 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AE1A1E2-28DC-D5B2-14B4-79A055201477" name="PK_WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:49:19 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F72C94C3-C93B-7498-28EC-BE9034D089EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9C626D3-D2C9-EAA4-EA07-12107A6E4057" name="AK_WORD__WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:54:30 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="069231EA-42FE-EA09-B6E0-9D38CD6BE355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33507BD1-A73C-9A53-700F-1E4E926AE1F5" name="AK_WORD__SYLLABLE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:54:30 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D7C1A66-8C89-65C7-34DE-9945CC7EC52B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A65E1FE-8C94-7054-73C6-F8133D98FB1F" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="IDX_WORD__WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:56:34 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="069231EA-42FE-EA09-B6E0-9D38CD6BE355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_WORD__PVFLAG" directorySegmentName="seg_0" id="3835CAB9-5558-90F9-D061-B171194938B4">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 13:54:30 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<rule>PVFLAG IN(&apos;Y&apos;,&apos;N&apos;)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

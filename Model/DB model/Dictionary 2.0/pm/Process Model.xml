@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="CC75D8EF-FE93-580B-94FB-BF28858D77B3">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 07:54:15 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

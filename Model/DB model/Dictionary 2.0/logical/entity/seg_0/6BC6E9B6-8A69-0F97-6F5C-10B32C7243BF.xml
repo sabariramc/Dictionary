@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BC6E9B6-8A69-0F97-6F5C-10B32C7243BF" name="IDIOM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>367EAD6D-1CE7-1A8C-5BAE-B8AD509C6232</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WID" id="9AA0F1F9-136D-9CFE-00DA-3CA7A4411B20">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>E1C6D8C8-BC53-045D-44B7-5D878F024B88</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>78DE7C7A-82C4-8CA5-BEBF-7160CC899C8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PCODE" id="12ECA892-722D-F5B0-8073-4071520DF228">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>F6F645BF-9051-19A1-13CA-0F6CEF1425D0</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>F5229F56-6B2C-E7CE-339A-AED7294F9CA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISEQ" id="1D865C86-0148-7B98-9A32-7BEB7EFA4123">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>2428DC2E-91BA-E0F2-1580-94A872807C63</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FORM" id="07C8E585-7E56-7246-DFF8-CB0A39B08BED">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>EFC63026-593B-0D25-A3EA-9843371A0A15</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CFBF042-9995-DCCF-4AE4-114D79F51ECE" name="IDIOM PK">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>59FD9737-9A9F-6AD5-9C98-5CCBDB56B061</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AA0F1F9-136D-9CFE-00DA-3CA7A4411B20</attributeRef>
+<attributeRef>1D865C86-0148-7B98-9A32-7BEB7EFA4123</attributeRef>
+<attributeRef>12ECA892-722D-F5B0-8073-4071520DF228</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="15A0D950-928D-E374-E29C-06E0DDE72A2B" name="AK IDIOM  FORM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>772E9A56-10C0-D821-EA95-BEFE0D6DD52F</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>07C8E585-7E56-7246-DFF8-CB0A39B08BED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

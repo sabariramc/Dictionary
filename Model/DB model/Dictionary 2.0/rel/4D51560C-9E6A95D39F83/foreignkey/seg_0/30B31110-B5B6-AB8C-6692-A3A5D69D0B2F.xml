@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30B31110-B5B6-AB8C-6692-A3A5D69D0B2F" containerWithKeyObject="2639F8F4-E7CF-2ACF-086B-E6E1B0E20C20" localFKIndex="29A472EE-B34C-AB8F-0D37-B4FB7271D820" name="FK_PV_MEANG__MEANING">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:05:44 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>189B8691-9D11-2393-9317-DEA03564DFDF</referredTableID>
+<keyObject>BEE83C4C-9D8F-A5AF-BB13-AD95519CAC6F</keyObject>
+<referredKeyID>BEE83C4C-9D8F-A5AF-BB13-AD95519CAC6F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

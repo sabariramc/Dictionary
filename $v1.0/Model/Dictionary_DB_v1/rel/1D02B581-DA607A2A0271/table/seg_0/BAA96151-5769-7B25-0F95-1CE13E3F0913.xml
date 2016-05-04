@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAA96151-5769-7B25-0F95-1CE13E3F0913" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PHRASAL_VERB">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PHRASAL_VERB</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="W_ID" id="0E0E4142-15CF-3C52-0B20-6D6B06EA650D">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHRASAL_VERB</sourceObjSchema>
+<sourceObjName>W_ID</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="627FFBA7-FA5B-F7DF-8269-FADECFBEB65B" referredColumn="4FAE100C-1043-FF48-4ACC-5B6D74BB138E"/>
+</associations>
+</Column>
+<Column name="PV_SEQ" id="57231B8D-15D7-4FC9-B4D8-5E08B9D46060">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHRASAL_VERB</sourceObjSchema>
+<sourceObjName>PV_SEQ</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORM" id="8538BC7F-22F4-5570-7916-8D33FF58FF61">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHRASAL_VERB</sourceObjSchema>
+<sourceObjName>FORM</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_PV_FORM</notNullConstraintName>
+</Column>
+<Column name="MEANING" id="2DE9BC9E-BFBE-7323-B9F4-105FF35B5C43">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHRASAL_VERB</sourceObjSchema>
+<sourceObjName>MEANING</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_PV_MEANING</notNullConstraintName>
+</Column>
+<Column name="EXAMPLE" id="F4E70257-E5D2-A444-2304-98566CBD2B4D">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHRASAL_VERB</sourceObjSchema>
+<sourceObjName>EXAMPLE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_PV_EXAMPLE</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DBCE12F-88BA-23B5-9D3E-FBC271A829B9" name="PK_PHRASAL_VERB">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PHRASAL_VERB</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E0E4142-15CF-3C52-0B20-6D6B06EA650D"/>
+<colUsage columnID="57231B8D-15D7-4FC9-B4D8-5E08B9D46060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="776BF73D-33FB-5CB2-BFF5-CF82D838C58D" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PK_PHRASAL_VERB">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PHRASAL_VERB</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E0E4142-15CF-3C52-0B20-6D6B06EA650D"/>
+<colUsage columnID="57231B8D-15D7-4FC9-B4D8-5E08B9D46060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AFF6612-1670-27F4-73E5-E4158645967A" name="FK_PHRASAL_VERB_WORD_OBJECT">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E0E4142-15CF-3C52-0B20-6D6B06EA650D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

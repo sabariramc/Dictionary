@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Dictionary_DB_v1" id="CAA71443-3B2E-8861-739F-262791C39295" version="3.5">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 18:57:19 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CAA71443-3B2E-8861-739F-262791C39295</designId>
+</OSDM_Design>

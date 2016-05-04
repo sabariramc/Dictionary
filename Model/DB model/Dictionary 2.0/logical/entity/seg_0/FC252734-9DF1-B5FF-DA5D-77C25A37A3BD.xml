@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC252734-9DF1-B5FF-DA5D-77C25A37A3BD" name="IDIOM MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>09BE95B5-837D-B88D-F9E9-B4DC883C8914</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WID" id="724F0234-C7CB-E3AD-B171-1FB73EEB6C3A">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>9AA1B129-9EDE-A756-54D1-0B23B65E0538</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>9AA0F1F9-136D-9CFE-00DA-3CA7A4411B20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PCODE" id="F2C5D5F7-9900-2C3B-55F9-E048BFEE95F1">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>9AA1B129-9EDE-A756-54D1-0B23B65E0538</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>12ECA892-722D-F5B0-8073-4071520DF228</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISEQ" id="57FDEA1C-F032-6636-BE3E-3A9629A2F533">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>9AA1B129-9EDE-A756-54D1-0B23B65E0538</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>1D865C86-0148-7B98-9A32-7BEB7EFA4123</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MSEQ" id="9799C470-8573-E50F-B112-E0E2D99AEF86">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>45E5C850-D236-3CD1-01A1-642E0D266FA3</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MID" id="D9606A9E-E75E-F421-4D7F-BEFC75B627DC">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>D67802F2-E123-13DC-7AAC-A48D3A3B3694</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>A7D9079A-9C22-3F21-9A7E-4B65B1408A0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4758A998-2A0F-F7C4-ED4A-7F990C8A250C" name="IDIOM MEANG PK">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>39E4FDA6-0A8E-8703-7C49-B3994F5400E2</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>724F0234-C7CB-E3AD-B171-1FB73EEB6C3A</attributeRef>
+<attributeRef>57FDEA1C-F032-6636-BE3E-3A9629A2F533</attributeRef>
+<attributeRef>F2C5D5F7-9900-2C3B-55F9-E048BFEE95F1</attributeRef>
+<attributeRef>9799C470-8573-E50F-B112-E0E2D99AEF86</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6BFC5CB6-77E5-F400-9C1D-4730380ADCB5" name="AK IDIOM MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>1EFA5DD9-D98A-0D96-A087-A49309EE1EAC</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>D9606A9E-E75E-F421-4D7F-BEFC75B627DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

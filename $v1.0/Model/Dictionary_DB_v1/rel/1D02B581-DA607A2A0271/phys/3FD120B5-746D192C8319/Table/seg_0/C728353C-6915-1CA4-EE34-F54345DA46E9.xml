@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PART_OF_SPEECH_CODE" directorySegmentName="seg_0" id="C728353C-6915-1CA4-EE34-F54345DA46E9">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<schemaObject>A28E81F1-2637-E631-A78A-B71573B68F26</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20652749-F64C-C4A4-E3DB-B3742D205D80</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ABBR" id="157FB04A-B9BF-E5BB-FDC1-60CF90AA19DB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="P_CODE" id="3DE41F74-EF3A-CABE-3CF8-09AEDFC8335F">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FULL_FORM" id="98BE39AE-F4AE-BEDB-D028-E993325B9510">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PART_OF_SPEECH_CODE" id="68F1AF79-6803-12F2-970C-5FA3558CEE58">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<schemaObject>A28E81F1-2637-E631-A78A-B71573B68F26</schemaObject>
+<segment>13CCA752-5AE9-3897-200E-DEA9897E02F6</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PART_OF_SPEECH_CODE" id="F864B599-75E4-6EE7-5A71-DD84DE31E3ED">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<segment>13CCA752-5AE9-3897-200E-DEA9897E02F6</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+<existingIndex>68F1AF79-6803-12F2-970C-5FA3558CEE58</existingIndex>
+<indexSegment>13CCA752-5AE9-3897-200E-DEA9897E02F6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

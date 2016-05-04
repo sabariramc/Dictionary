@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4070B16D-D5D7-72CE-BC1D-9422712C82F8" name="PART OF SPEECH">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>47017054-A88D-A324-AFF1-EA0C4362E4CE</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="W ID" id="DB21C004-4DD9-F806-AC1C-7BE0479814EE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>D615B9AF-A580-9DC0-5494-855FB5E954B0</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<referedAttribute>8CEBDF33-94A6-FEB1-C2ED-DA5B74FFE54C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="P CODE" id="3868EE01-8675-5106-D9E8-F285DA9514E8">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>AD7ED682-AB94-5199-4A6B-BD7536CDF882</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<referedAttribute>F0EE9E22-889D-8C5E-ED52-B4F868ED89D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C SEQ" id="62261C46-5844-3800-83CC-142BD994D8E3">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>2FCD5671-EFCF-C91B-B5C5-EE7964F6B4A8</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTEXT" id="E237AA77-74DE-9C76-FA94-365247362826">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>AC379573-6FDF-A42C-437D-8FEDAAAF2D26</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2648869-ACD5-1CC9-A3A7-298308428265" name="PK PART OF SPEECH">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>56604391-FB05-E87B-5456-118C56598D44</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB21C004-4DD9-F806-AC1C-7BE0479814EE</attributeRef>
+<attributeRef>3868EE01-8675-5106-D9E8-F285DA9514E8</attributeRef>
+<attributeRef>62261C46-5844-3800-83CC-142BD994D8E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

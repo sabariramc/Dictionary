@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="061550BE-18B0-FEB2-4354-66E0627187E3" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="P_VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:53:28 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WID" id="F095125D-EC20-E881-A58E-9C0F44CF5968">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:54:36 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D641265A-275A-8760-446B-39FC94184102" referredColumn="F72C94C3-C93B-7498-28EC-BE9034D089EB"/>
+</associations>
+</Column>
+<Column name="PVSEQ" id="991588CB-F3D2-EC35-5A5D-7C7B15DD229C">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:54:36 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORM" id="80C8E83F-3DB2-5B59-2066-69340B5E6B1A">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:54:36 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="139D9F43-8530-832B-2C46-47C570FC4DD9" name="PK_P_VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:54:36 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F095125D-EC20-E881-A58E-9C0F44CF5968"/>
+<colUsage columnID="991588CB-F3D2-EC35-5A5D-7C7B15DD229C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B5696A4-EBA6-2C69-44BE-D2DB24901C3A" name="AK_P_VERB__FORM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:55:12 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80C8E83F-3DB2-5B59-2066-69340B5E6B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B5A01BA-99B5-CFCF-B868-CE0EADACCBE0" name="FK_P_VERB__WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:56:06 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F095125D-EC20-E881-A58E-9C0F44CF5968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

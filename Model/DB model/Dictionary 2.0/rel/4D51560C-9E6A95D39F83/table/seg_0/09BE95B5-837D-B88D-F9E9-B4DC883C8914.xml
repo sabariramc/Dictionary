@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09BE95B5-837D-B88D-F9E9-B4DC883C8914" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="IDM_MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:45:52 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WID" id="D6FD5007-76D1-7C4F-02E0-D02BD0CCC027">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:47:22 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3553DD14-ABB6-294A-6072-BC2BF6C9266A" referredColumn="B022247E-D24D-6E95-7955-1BC61ED6D995"/>
+</associations>
+</Column>
+<Column name="EXPSEQ" id="8195FCF0-8EBB-370F-1298-20A3185F00CC">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:47:22 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3553DD14-ABB6-294A-6072-BC2BF6C9266A" referredColumn="24A5A8CF-5AD4-6806-03E4-1BA311333B94"/>
+</associations>
+</Column>
+<Column name="ISEQ" id="CFA0542F-69EE-2F25-0A8F-09B23FD4A3D1">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:47:22 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3553DD14-ABB6-294A-6072-BC2BF6C9266A" referredColumn="2428DC2E-91BA-E0F2-1580-94A872807C63"/>
+</associations>
+</Column>
+<Column name="MSEQ" id="45E5C850-D236-3CD1-01A1-642E0D266FA3">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:47:22 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MID" id="5C079703-497F-1B12-8550-D111CA21A0BA">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:47:22 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33027375-4936-DAF5-6CAA-89F9FBA6565B" referredColumn="80338A98-2690-504C-2AC8-61B13D92AD06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39E4FDA6-0A8E-8703-7C49-B3994F5400E2" name="PK_IDM_MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:47:22 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6FD5007-76D1-7C4F-02E0-D02BD0CCC027"/>
+<colUsage columnID="8195FCF0-8EBB-370F-1298-20A3185F00CC"/>
+<colUsage columnID="CFA0542F-69EE-2F25-0A8F-09B23FD4A3D1"/>
+<colUsage columnID="45E5C850-D236-3CD1-01A1-642E0D266FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EFA5DD9-D98A-0D96-A087-A49309EE1EAC" name="AK_IDM_MEANG__MID">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:50:07 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C079703-497F-1B12-8550-D111CA21A0BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A33C982-5A9E-3F57-6DA4-C9D00A485FC8" name="FK_IDM_MEANG__IDIOM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:50:07 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6FD5007-76D1-7C4F-02E0-D02BD0CCC027"/>
+<colUsage columnID="CFA0542F-69EE-2F25-0A8F-09B23FD4A3D1"/>
+<colUsage columnID="8195FCF0-8EBB-370F-1298-20A3185F00CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38FC3523-1564-DB32-CFD7-FBB904BBD917" name="FK_IDM_MEANG__MEANING">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:50:07 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C079703-497F-1B12-8550-D111CA21A0BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

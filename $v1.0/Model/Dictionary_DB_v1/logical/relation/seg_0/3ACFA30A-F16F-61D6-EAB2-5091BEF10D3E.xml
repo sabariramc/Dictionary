@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK02" directorySegmentName="seg_0" id="3ACFA30A-F16F-61D6-EAB2-5091BEF10D3E">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>D6DD6AC6-D053-C402-E65B-8D707B307C68</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<sourcePk>2E713D46-C3FE-3CB2-40FE-FEFD5FF58911</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C49E2CB-0CEB-600D-8B4C-44877D08B582</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7EC4BC6D-424E-543D-74AC-98CFCB199353</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

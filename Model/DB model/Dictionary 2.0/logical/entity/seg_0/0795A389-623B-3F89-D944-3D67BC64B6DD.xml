@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0795A389-623B-3F89-D944-3D67BC64B6DD" name="PS CODE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>7D1FBD9E-B14D-A426-6C92-6C045FBCC7A5</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PCODE" id="F5229F56-6B2C-E7CE-339A-AED7294F9CA1">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>C7584D62-C769-11D7-21EF-B71747567437</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ABBR" id="5BEB9DB5-EB71-31D7-CD31-76E1FD4A978B">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>098046DF-D60A-78EF-FC48-7A78FD3A0369</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="51379DAE-0E20-230E-D11C-7650D8FF17F8">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>FC4DDF30-FFB1-52DB-DFAB-C37E81F1039B</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E2E3C21-A1CF-8A2E-C3E4-11B0703D372C" name="PK PS CODE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>B0D2B9E2-8FCF-96F3-62DE-7666CDC33334</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5229F56-6B2C-E7CE-339A-AED7294F9CA1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="83B3C2C6-37AA-ADFA-998E-B763F4FD4229" name="AK ABBR">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>2A3F741F-704C-D366-A052-D9B4E7E047EC</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>5BEB9DB5-EB71-31D7-CD31-76E1FD4A978B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="710EBE78-218F-6EBB-699A-19DB0396309D" name="AK NAME">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>36242559-B2DE-AF78-749C-A83976BF5A72</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>51379DAE-0E20-230E-D11C-7650D8FF17F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

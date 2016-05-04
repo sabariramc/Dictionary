@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61079E4B-142F-941D-8083-0F3C9C34712D" name="CTX MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>B579CE0B-E7AB-5001-58F7-C322532D2222</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WID" id="0AD0DA47-5058-6EC6-A911-36CCC17B0835">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>2615E98E-0169-B849-CC7A-21D2861A96FA</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>0DB155FD-16E7-55E1-AE63-85C6368D3435</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PCODE" id="9E62198B-5755-2AB6-9E76-565721C84DBB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>2615E98E-0169-B849-CC7A-21D2861A96FA</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>4783D1A2-3E8E-B15C-3810-F3D1F3CFCDAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CSEQ" id="9ABB3138-4BED-40C7-8B68-EDC81144B571">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>2615E98E-0169-B849-CC7A-21D2861A96FA</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>C260B370-A328-B8FC-F940-44C75E58C97C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MSEQ" id="31F348A7-1E3C-63C9-4FF4-54C2EDC2988E">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>CFCDD60E-EDFA-7B16-C9DE-21655EBF1A57</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MID" id="388DB12C-94A4-2D4D-242A-09F45D2B7B62">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>3CD75518-AC5D-74D3-C1AA-9616AEDF8674</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>A7D9079A-9C22-3F21-9A7E-4B65B1408A0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="901994DB-AB65-7D3D-1F91-2122F66E4798" name="PK CTX MEANGv2">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>5F6A3DB8-5199-3076-EE15-49110353BA26</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0AD0DA47-5058-6EC6-A911-36CCC17B0835</attributeRef>
+<attributeRef>9E62198B-5755-2AB6-9E76-565721C84DBB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B4D74887-B555-A276-64A8-852D0A83C4A9" name="AK CTX MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>67DAF8FC-B4C7-B470-E2F4-75AD47368434</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>388DB12C-94A4-2D4D-242A-09F45D2B7B62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

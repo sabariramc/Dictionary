@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47017054-A88D-A324-AFF1-EA0C4362E4CE" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PART_OF_SPEECH">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PART_OF_SPEECH</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="W_ID" id="6E96EA41-35C5-277D-60E7-6602EF817909">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PART_OF_SPEECH</sourceObjSchema>
+<sourceObjName>W_ID</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D963AB4-1AD6-E5A2-1803-29A08CD0D15D" referredColumn="4FAE100C-1043-FF48-4ACC-5B6D74BB138E"/>
+</associations>
+</Column>
+<Column name="P_CODE" id="9064AAE4-BD4A-A398-DE77-DB495CB58213">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PART_OF_SPEECH</sourceObjSchema>
+<sourceObjName>P_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A88ED2F-DA49-E52A-5BFB-91E28DFAFFAD" referredColumn="3DE41F74-EF3A-CABE-3CF8-09AEDFC8335F"/>
+</associations>
+</Column>
+<Column name="C_SEQ" id="2FCD5671-EFCF-C91B-B5C5-EE7964F6B4A8">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PART_OF_SPEECH</sourceObjSchema>
+<sourceObjName>C_SEQ</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_C_SEQ</notNullConstraintName>
+</Column>
+<Column name="CONTEXT" id="AC379573-6FDF-A42C-437D-8FEDAAAF2D26">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PART_OF_SPEECH</sourceObjSchema>
+<sourceObjName>CONTEXT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56604391-FB05-E87B-5456-118C56598D44" name="PK_PART_OF_SPEECH">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PART_OF_SPEECH</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E96EA41-35C5-277D-60E7-6602EF817909"/>
+<colUsage columnID="9064AAE4-BD4A-A398-DE77-DB495CB58213"/>
+<colUsage columnID="2FCD5671-EFCF-C91B-B5C5-EE7964F6B4A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="313EBCC4-8E9F-6952-1DC3-BF381978CB92" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PK_PART_OF_SPEECH">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PART_OF_SPEECH</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E96EA41-35C5-277D-60E7-6602EF817909"/>
+<colUsage columnID="9064AAE4-BD4A-A398-DE77-DB495CB58213"/>
+<colUsage columnID="2FCD5671-EFCF-C91B-B5C5-EE7964F6B4A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02CD3CD9-8B9A-FE21-AC00-56EF402BB36F" name="FK_PART_OF_SPEECH_CODE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9064AAE4-BD4A-A398-DE77-DB495CB58213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE9F0834-F20C-F894-E939-050A18A42A4D" name="FK_PART_OF_SPEECH_WORD_OBJECT">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E96EA41-35C5-277D-60E7-6602EF817909"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

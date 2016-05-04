@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2639F8F4-E7CF-2ACF-086B-E6E1B0E20C20" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="PV_MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:56:26 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WID" id="7E7104A5-19D0-7505-97F4-BF3D1D6DE32F">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:57:12 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0C70750-48A4-4F34-70A5-38AE808A3161" referredColumn="F095125D-EC20-E881-A58E-9C0F44CF5968"/>
+</associations>
+</Column>
+<Column name="PVSEQ" id="092DC713-163F-6B95-8C0E-930A2A2CDB48">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:57:12 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0C70750-48A4-4F34-70A5-38AE808A3161" referredColumn="991588CB-F3D2-EC35-5A5D-7C7B15DD229C"/>
+</associations>
+</Column>
+<Column name="MSEQ" id="18DE7A50-E16E-8FD0-27F8-9E1D119EA202">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:00:09 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MID" id="23B03771-0DD5-D95A-A2FA-C63846DA9958">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:00:09 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30B31110-B5B6-AB8C-6692-A3A5D69D0B2F" referredColumn="80338A98-2690-504C-2AC8-61B13D92AD06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C19DC333-2541-D25C-7811-581CC0C3D9BC" name="PK_PV_MEANG">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:57:12 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="092DC713-163F-6B95-8C0E-930A2A2CDB48"/>
+<colUsage columnID="7E7104A5-19D0-7505-97F4-BF3D1D6DE32F"/>
+<colUsage columnID="18DE7A50-E16E-8FD0-27F8-9E1D119EA202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CC0B621-1CC2-B663-4729-5EBE814327EF" name="AK_PV_MEANG__MID">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:01:30 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B03771-0DD5-D95A-A2FA-C63846DA9958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EF47489-48FE-BC32-08E6-D661D4D3E064" name="FK_PV_MEANG__P_VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:03:28 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E7104A5-19D0-7505-97F4-BF3D1D6DE32F"/>
+<colUsage columnID="092DC713-163F-6B95-8C0E-930A2A2CDB48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29A472EE-B34C-AB8F-0D37-B4FB7271D820" name="FK_PV_MEANG__MEANING">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:05:44 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B03771-0DD5-D95A-A2FA-C63846DA9958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

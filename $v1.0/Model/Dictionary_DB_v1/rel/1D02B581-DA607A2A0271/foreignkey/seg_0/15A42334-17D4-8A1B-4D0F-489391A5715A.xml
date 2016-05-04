@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15A42334-17D4-8A1B-4D0F-489391A5715A" containerWithKeyObject="4EDDEF6A-E59B-65ED-5C5B-A9173451A06E" localFKIndex="049ACDC8-105B-D836-5608-7061C842C9BD" name="FK_ACCENT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>FK_ACCENT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>FA6EB82A-9F91-ADDE-39FC-B71F4F92FABF</referredTableID>
+<keyObject>4A0BD2A8-CCA5-17A8-B740-63653A076D2C</keyObject>
+<referredKeyID>4A0BD2A8-CCA5-17A8-B740-63653A076D2C</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

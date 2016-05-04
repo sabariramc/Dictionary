@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA6EB82A-9F91-ADDE-39FC-B71F4F92FABF" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="ACCENT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>ACCENT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:26 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="A_CODE" id="919D353F-8CD0-DB06-1C78-E20219B7A332">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>ACCENT</sourceObjSchema>
+<sourceObjName>A_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="A_NAME" id="14797309-0BD7-9FB0-B88F-50169192F3A5">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>ACCENT</sourceObjSchema>
+<sourceObjName>A_NAME</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_A_NAME</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A0BD2A8-CCA5-17A8-B740-63653A076D2C" name="PK_ACCENT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_ACCENT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="919D353F-8CD0-DB06-1C78-E20219B7A332"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB6A9B8-9362-9017-2569-9DF61236AD74" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PK_ACCENT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_ACCENT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="919D353F-8CD0-DB06-1C78-E20219B7A332"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

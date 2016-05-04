@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="IDIOM" directorySegmentName="seg_0" id="9E215C7A-C27B-E672-4297-4CF6EA0F84C1">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<schemaObject>A28E81F1-2637-E631-A78A-B71573B68F26</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20652749-F64C-C4A4-E3DB-B3742D205D80</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FORM" id="8E131835-6401-1EC3-7BD9-832009899AA3">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="P_CODE" id="966D0603-9DF1-0974-6A21-EC00C1DC13EB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="I_SEQ" id="9D5DD2D8-F439-F761-0A43-60338EA7D658">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="W_ID" id="B1A363E5-A771-8AFF-AC0D-262E70497EEE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEANING" id="C83EB245-6B5A-7ADC-E032-8DBFC5481C42">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXAMPLE" id="E32D090C-DD5E-C19E-BD1B-DFE255C04B3C">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_IDIOM" id="1DD83FCB-DAC2-C812-2063-AA966151DB49">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<schemaObject>A28E81F1-2637-E631-A78A-B71573B68F26</schemaObject>
+<segment>13CCA752-5AE9-3897-200E-DEA9897E02F6</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK01" id="0B1D4D60-D334-1C0B-A330-1D01910D0BB3">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK02" id="B9E57F6C-721D-7AF5-F7DD-1BBEC54015E8">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_IDIOM" id="46BBCCC2-8461-0416-8E20-9054C6C15868">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<segment>13CCA752-5AE9-3897-200E-DEA9897E02F6</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+<existingIndex>1DD83FCB-DAC2-C812-2063-AA966151DB49</existingIndex>
+<indexSegment>13CCA752-5AE9-3897-200E-DEA9897E02F6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F5010F1-6408-5D87-E9F1-77139D04B954" name="PHRASAL VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>BAA96151-5769-7B25-0F95-1CE13E3F0913</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="W ID" id="015E9434-8C4C-6D25-FFB5-128D3EFE6D1D">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>9B1E1036-3F5C-1038-A51F-154C32780E69</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<referedAttribute>8CEBDF33-94A6-FEB1-C2ED-DA5B74FFE54C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PV SEQ" id="757B7DC1-B47E-ED7F-BD3A-D74181715313">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>57231B8D-15D7-4FC9-B4D8-5E08B9D46060</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FORM" id="212E8FED-4CF1-5776-5954-15C6D996FAB1">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>8538BC7F-22F4-5570-7916-8D33FF58FF61</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEANING" id="61607295-FC29-AAEB-A352-C794F0223AB5">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>2DE9BC9E-BFBE-7323-B9F4-105FF35B5C43</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXAMPLE" id="6DEA5800-0269-55B2-E9CA-0CCD3CE3B583">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>F4E70257-E5D2-A444-2304-98566CBD2B4D</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E6232EE-5BE2-16B7-6C8C-0376F4BD49A2" name="PK PHRASAL VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>0DBCE12F-88BA-23B5-9D3E-FBC271A829B9</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>015E9434-8C4C-6D25-FFB5-128D3EFE6D1D</attributeRef>
+<attributeRef>757B7DC1-B47E-ED7F-BD3A-D74181715313</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F6F9142-F310-50DF-E464-F46F4870FAD9" name="EXAMPLE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>643C9BD9-1B90-86F9-07E6-8927FEE2091A</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MID" id="737727DE-CFB1-D0BF-5020-EF3FA0CB95B1">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>818303BF-AE25-A6C5-A7B1-E763FBDD1EF1</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>A7D9079A-9C22-3F21-9A7E-4B65B1408A0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESEQ" id="391F89A8-9A40-1889-F977-E6AF6F41D0B5">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>3D56A9DF-BBB1-2731-044B-A6657D749497</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXAMPLE" id="342D3928-9E77-841D-F9D4-10690945B906">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>AEABEA3F-A915-B8E0-046A-1541956A78F8</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00ADFE37-60CC-5842-063D-0B6946E5827B" name="PK EXAMPLE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:12 UTC</createdTime>
+<generatorID>B8BCD006-6526-56AA-32E6-30C7906B90F9</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>737727DE-CFB1-D0BF-5020-EF3FA0CB95B1</attributeRef>
+<attributeRef>391F89A8-9A40-1889-F977-E6AF6F41D0B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

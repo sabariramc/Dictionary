@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAD3D60C-7DE6-2ECD-3F01-3FAB9FD600A4" containerWithKeyObject="4EDDEF6A-E59B-65ED-5C5B-A9173451A06E" localFKIndex="E60A0E27-795D-3D83-CEBD-8BF8ECB76B1C" name="FK_PHONOLOGY_WORD_OBJECT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>FK_PHONOLOGY_WORD_OBJECT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5D1589B2-35DB-1D8B-5068-EB2F69E337BD</referredTableID>
+<keyObject>3E8E355E-31B2-6EF0-C82F-4F76C08049CC</keyObject>
+<referredKeyID>3E8E355E-31B2-6EF0-C82F-4F76C08049CC</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

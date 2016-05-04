@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D1589B2-35DB-1D8B-5068-EB2F69E337BD" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="WORD_OBJECT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>WORD_OBJECT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="W_ID" id="4FAE100C-1043-FF48-4ACC-5B6D74BB138E">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>WORD_OBJECT</sourceObjSchema>
+<sourceObjName>W_ID</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORD" id="623104F6-22A0-44E9-34D6-4FAB09840EF8">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>WORD_OBJECT</sourceObjSchema>
+<sourceObjName>WORD</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_WORD</notNullConstraintName>
+</Column>
+<Column name="SYLLABLE" id="0BECEF48-4440-266B-27D1-2824D7C71B2C">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>WORD_OBJECT</sourceObjSchema>
+<sourceObjName>SYLLABLE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 BYTE</dataTypeSize>
+<ownDataTypeParameters>75 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_SYLLABLE</notNullConstraintName>
+</Column>
+<Column name="I_FLAG" id="0771DA7E-D7B6-79B4-2C50-40BF06F68F5C">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>WORD_OBJECT</sourceObjSchema>
+<sourceObjName>I_FLAG</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<constraintName>CK_I_FLAG</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;n&apos;" description=""/>
+<valueDef value="&apos;y&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_I_FLAG</notNullConstraintName>
+</Column>
+<Column name="PV_FLAG" id="6F4FAE12-94E5-ED88-FF94-45F88F58C0C2">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>WORD_OBJECT</sourceObjSchema>
+<sourceObjName>PV_FLAG</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<constraintName>CK_PV_FLAG</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;n&apos;" description=""/>
+<valueDef value="&apos;y&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_PV_FLAG</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E8E355E-31B2-6EF0-C82F-4F76C08049CC" name="PK_WORD_OBJECT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_WORD_OBJECT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FAE100C-1043-FF48-4ACC-5B6D74BB138E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E88DC1F4-0863-2B51-B9BF-56150CDB990C" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PK_WORD_OBJECT">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_WORD_OBJECT</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FAE100C-1043-FF48-4ACC-5B6D74BB138E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

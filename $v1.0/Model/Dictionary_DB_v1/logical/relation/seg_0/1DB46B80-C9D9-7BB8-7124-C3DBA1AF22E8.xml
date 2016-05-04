@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ACCENT" directorySegmentName="seg_0" id="1DB46B80-C9D9-7BB8-7124-C3DBA1AF22E8">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-27 02:15:02 UTC</createdTime>
+<generatorID>15A42334-17D4-8A1B-4D0F-489391A5715A</generatorID>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<engineerTo>
+<item key="1D02B581-1F45-927C-BCC6-DA607A2A0271" value="true"/>
+</engineerTo>
+<sourcePk>E9D85A12-1CBB-FEF6-9288-4329A7D24349</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6ECC9A61-E5C6-AA89-B7CB-0E4428F219B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31D72E81-375B-3FB8-8827-54BBADE2634C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

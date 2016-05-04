@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##DICT_ADMIN" directorySegmentName="seg_0" id="0F54745D-CEA9-154E-67B0-6763B8871BE7">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:07:35 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>schema_2</ordsAlias>
+</SchemaObject>

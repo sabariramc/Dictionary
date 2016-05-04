@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF7CAF33-8867-3207-8697-E6498E2C1E78" name="WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>5F9796CE-6091-D022-2897-71F1B1865899</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WID" id="78DE7C7A-82C4-8CA5-BEBF-7160CC899C8D">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>F72C94C3-C93B-7498-28EC-BE9034D089EB</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WORD" id="3888A1EC-5DB5-9CD2-1FED-6AB8C85B7907">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>069231EA-42FE-EA09-B6E0-9D38CD6BE355</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SYLLABLE" id="6FE18C93-35B9-62C7-736F-150AF7B4F51A">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>6D7C1A66-8C89-65C7-34DE-9945CC7EC52B</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IFLAG" id="7E743B68-0A07-D448-AAFD-FC2288D3DC8B">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>3BB1F3F2-2D06-4F7D-34FD-DCAF0B446E43</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PVFLAG" id="6229929F-9AB7-2F06-A1F6-FD773E1F89E4">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>614FC566-0B2D-8240-FA2B-97D37C0C4DB3</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44A761C5-FCF0-43F5-13F3-18014C1D5DB9" name="PK WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>5AE1A1E2-28DC-D5B2-14B4-79A055201477</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78DE7C7A-82C4-8CA5-BEBF-7160CC899C8D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="22198E4D-D95D-4717-FFEA-89238243C0BB" name="AK WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>B9C626D3-D2C9-EAA4-EA07-12107A6E4057</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>3888A1EC-5DB5-9CD2-1FED-6AB8C85B7907</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="45116CF6-5EB1-1E94-2435-0843AB30BB22" name="AK SYLLABLE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>33507BD1-A73C-9A53-700F-1E4E926AE1F5</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>6FE18C93-35B9-62C7-736F-150AF7B4F51A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

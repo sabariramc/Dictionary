@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_IDIOM_MEANG__MEANING" directorySegmentName="seg_0" id="D67802F2-E123-13DC-7AAC-A48D3A3B3694">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>33027375-4936-DAF5-6CAA-89F9FBA6565B</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<sourcePk>A0E706F2-6606-BB8F-23E7-E4C083D5ACC2</sourcePk>
+<dominantRole>40287997-58DC-0F70-0168-A824911CC4A3</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>40287997-58DC-0F70-0168-A824911CC4A3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FC252734-9DF1-B5FF-DA5D-77C25A37A3BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

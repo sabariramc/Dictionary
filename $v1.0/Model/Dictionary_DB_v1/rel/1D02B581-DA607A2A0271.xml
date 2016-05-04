@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Reational V1" id="1D02B581-1F45-927C-BCC6-DA607A2A0271" mainViewID="FAA7C34B-F22D-5462-56C9-DC0C53C157EC">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:08:51 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>dictadmin</connName>
+<connUrl>jdbc:oracle:thin:@localhost:1521:oracle</connUrl>
+<connUser>C##dict_admin</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

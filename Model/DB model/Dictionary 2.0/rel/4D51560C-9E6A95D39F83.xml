@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="4D51560C-278D-F5BF-1F85-9E6A95D39F83" mainViewID="4AFF81C9-AC5A-1B58-9D54-10A02230BA7D">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 07:54:52 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+</relationalModel>

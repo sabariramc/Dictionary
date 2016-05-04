@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3553DD14-ABB6-294A-6072-BC2BF6C9266A" containerWithKeyObject="09BE95B5-837D-B88D-F9E9-B4DC883C8914" localFKIndex="5A33C982-5A9E-3F57-6DA4-C9D00A485FC8" name="FK_IDM_MEANG__IDIOM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:50:07 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>367EAD6D-1CE7-1A8C-5BAE-B8AD509C6232</referredTableID>
+<keyObject>59FD9737-9A9F-6AD5-9C98-5CCBDB56B061</keyObject>
+<referredKeyID>59FD9737-9A9F-6AD5-9C98-5CCBDB56B061</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

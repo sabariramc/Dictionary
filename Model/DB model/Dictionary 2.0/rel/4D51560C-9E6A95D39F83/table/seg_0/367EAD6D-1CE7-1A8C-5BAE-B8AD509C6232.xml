@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="367EAD6D-1CE7-1A8C-5BAE-B8AD509C6232" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="IDIOM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:38:07 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WID" id="B022247E-D24D-6E95-7955-1BC61ED6D995">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:40:32 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DF245F3-8724-AA81-E725-DA3DBBE918D2" referredColumn="F82ADA73-E900-4358-AEAA-32721688ED66"/>
+</associations>
+</Column>
+<Column name="EXPSEQ" id="24A5A8CF-5AD4-6806-03E4-1BA311333B94">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:41:09 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DF245F3-8724-AA81-E725-DA3DBBE918D2" referredColumn="B5C4933F-7F84-1D17-9744-E2E582D275A2"/>
+</associations>
+</Column>
+<Column name="ISEQ" id="2428DC2E-91BA-E0F2-1580-94A872807C63">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:40:32 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORM" id="EFC63026-593B-0D25-A3EA-9843371A0A15">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:40:32 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59FD9737-9A9F-6AD5-9C98-5CCBDB56B061" name="PK_IDIOM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:40:32 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B022247E-D24D-6E95-7955-1BC61ED6D995"/>
+<colUsage columnID="2428DC2E-91BA-E0F2-1580-94A872807C63"/>
+<colUsage columnID="24A5A8CF-5AD4-6806-03E4-1BA311333B94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="772E9A56-10C0-D821-EA95-BEFE0D6DD52F" name="AK_IDIOM__FORM">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:42:10 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC63026-593B-0D25-A3EA-9843371A0A15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0768F97-78FC-6985-2AB8-87F94DB6BB58" name="FK_IDIOM__EXP_UNT">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-03-12 15:43:12 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B022247E-D24D-6E95-7955-1BC61ED6D995"/>
+<colUsage columnID="24A5A8CF-5AD4-6806-03E4-1BA311333B94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9324AA9-1782-5F15-928A-CADD64E89F16" name="P VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>061550BE-18B0-FEB2-4354-66E0627187E3</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WID" id="7150F2FB-DBF8-6409-94F4-E5106FC54D42">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>7E1DCAC0-4BE9-7111-2626-8C709CBC894C</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<referedAttribute>78DE7C7A-82C4-8CA5-BEBF-7160CC899C8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PVSEQ" id="56699D0E-AB23-5432-C187-F93D472CFD86">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>991588CB-F3D2-EC35-5A5D-7C7B15DD229C</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FORM" id="12352A86-C5BE-3F97-67E9-2D812061F78E">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>80C8E83F-3DB2-5B59-2066-69340B5E6B1A</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C14B2A8E-206C-97C9-4761-4DD9A68A64A4" name="PK P VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>139D9F43-8530-832B-2C46-47C570FC4DD9</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7150F2FB-DBF8-6409-94F4-E5106FC54D42</attributeRef>
+<attributeRef>56699D0E-AB23-5432-C187-F93D472CFD86</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="43E4C26F-A2D7-B51A-65CA-51578C6A9546" name="AK P VERB">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>6B5696A4-EBA6-2C69-44BE-D2DB24901C3A</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>12352A86-C5BE-3F97-67E9-2D812061F78E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_IDIOM__WORD" directorySegmentName="seg_0" id="E1C6D8C8-BC53-045D-44B7-5D878F024B88">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>8179DFB0-2546-46D6-3C7B-B950A7C6A1A1</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<sourcePk>44A761C5-FCF0-43F5-13F3-18014C1D5DB9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF7CAF33-8867-3207-8697-E6498E2C1E78</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BC6E9B6-8A69-0F97-6F5C-10B32C7243BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PV_MEANG__P_VERB" directorySegmentName="seg_0" id="51B9F532-B5DD-A853-102D-ABAB9ADDA194">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 15:09:13 UTC</createdTime>
+<generatorID>E0C70750-48A4-4F34-70A5-38AE808A3161</generatorID>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<engineerTo>
+<item key="4D51560C-278D-F5BF-1F85-9E6A95D39F83" value="true"/>
+</engineerTo>
+<sourcePk>C14B2A8E-206C-97C9-4761-4DD9A68A64A4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9324AA9-1782-5F15-928A-CADD64E89F16</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3445BD81-DA00-F750-957D-7AAB990D4B19</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

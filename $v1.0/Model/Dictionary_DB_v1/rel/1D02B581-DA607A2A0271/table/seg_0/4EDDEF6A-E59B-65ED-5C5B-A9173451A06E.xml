@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EDDEF6A-E59B-65ED-5C5B-A9173451A06E" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PHONOLOGY">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PHONOLOGY</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="W_ID" id="1B97322C-AF5C-3769-5B38-7B6734DC9FB0">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHONOLOGY</sourceObjSchema>
+<sourceObjName>W_ID</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAD3D60C-7DE6-2ECD-3F01-3FAB9FD600A4" referredColumn="4FAE100C-1043-FF48-4ACC-5B6D74BB138E"/>
+</associations>
+</Column>
+<Column name="A_CODE" id="3B188554-4133-588A-21DB-B2DFF4A3949A">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHONOLOGY</sourceObjSchema>
+<sourceObjName>A_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15A42334-17D4-8A1B-4D0F-489391A5715A" referredColumn="919D353F-8CD0-DB06-1C78-E20219B7A332"/>
+</associations>
+</Column>
+<Column name="PHONETICS" id="53F7D77C-FA1E-C92E-45BB-8B7524383555">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHONOLOGY</sourceObjSchema>
+<sourceObjName>PHONETICS</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRONUNCIATION" id="77D157E8-D441-5BBA-E7D2-9490B14054B4">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PHONOLOGY</sourceObjSchema>
+<sourceObjName>PRONUNCIATION</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CCE28FE-CCD9-1765-0497-BD63A9BB02BF" name="PK_PHONOLOGY">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PHONOLOGY</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B97322C-AF5C-3769-5B38-7B6734DC9FB0"/>
+<colUsage columnID="3B188554-4133-588A-21DB-B2DFF4A3949A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDF7CA2F-608A-ECF1-1327-7FBAF7723879" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PK_PHONOLOGY">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PHONOLOGY</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B97322C-AF5C-3769-5B38-7B6734DC9FB0"/>
+<colUsage columnID="3B188554-4133-588A-21DB-B2DFF4A3949A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="049ACDC8-105B-D836-5608-7061C842C9BD" name="FK_ACCENT">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B188554-4133-588A-21DB-B2DFF4A3949A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E60A0E27-795D-3D83-CEBD-8BF8ECB76B1C" name="FK_PHONOLOGY_WORD_OBJECT">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B97322C-AF5C-3769-5B38-7B6734DC9FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

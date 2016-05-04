@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACCENT" directorySegmentName="seg_0" id="FA6EB82A-9F91-ADDE-39FC-B71F4F92FABF">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:26 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<schemaObject>A28E81F1-2637-E631-A78A-B71573B68F26</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20652749-F64C-C4A4-E3DB-B3742D205D80</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="A_NAME" id="14797309-0BD7-9FB0-B88F-50169192F3A5">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="A_CODE" id="919D353F-8CD0-DB06-1C78-E20219B7A332">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ACCENT" id="6BB6A9B8-9362-9017-2569-9DF61236AD74">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<schemaObject>A28E81F1-2637-E631-A78A-B71573B68F26</schemaObject>
+<segment>13CCA752-5AE9-3897-200E-DEA9897E02F6</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ACCENT" id="4A0BD2A8-CCA5-17A8-B740-63653A076D2C">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<segment>13CCA752-5AE9-3897-200E-DEA9897E02F6</segment>
+<tableSpace>725119AA-EB5D-F33C-6393-BAA812D98008</tableSpace>
+<existingIndex>6BB6A9B8-9362-9017-2569-9DF61236AD74</existingIndex>
+<indexSegment>13CCA752-5AE9-3897-200E-DEA9897E02F6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

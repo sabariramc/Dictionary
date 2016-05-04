@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E215C7A-C27B-E672-4297-4CF6EA0F84C1" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="IDIOM">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>IDIOM</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="W_ID" id="B1A363E5-A771-8AFF-AC0D-262E70497EEE">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>IDIOM</sourceObjSchema>
+<sourceObjName>W_ID</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A18B99D8-5F8F-D089-D518-66F91CCD3E09" referredColumn="4FAE100C-1043-FF48-4ACC-5B6D74BB138E"/>
+</associations>
+</Column>
+<Column name="P_CODE" id="966D0603-9DF1-0974-6A21-EC00C1DC13EB">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>IDIOM</sourceObjSchema>
+<sourceObjName>P_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6DD6AC6-D053-C402-E65B-8D707B307C68" referredColumn="3DE41F74-EF3A-CABE-3CF8-09AEDFC8335F"/>
+</associations>
+</Column>
+<Column name="I_SEQ" id="9D5DD2D8-F439-F761-0A43-60338EA7D658">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>IDIOM</sourceObjSchema>
+<sourceObjName>I_SEQ</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORM" id="8E131835-6401-1EC3-7BD9-832009899AA3">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>IDIOM</sourceObjSchema>
+<sourceObjName>FORM</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_FORM</notNullConstraintName>
+</Column>
+<Column name="MEANING" id="C83EB245-6B5A-7ADC-E032-8DBFC5481C42">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>IDIOM</sourceObjSchema>
+<sourceObjName>MEANING</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_MEANING</notNullConstraintName>
+</Column>
+<Column name="EXAMPLE" id="E32D090C-DD5E-C19E-BD1B-DFE255C04B3C">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>IDIOM</sourceObjSchema>
+<sourceObjName>EXAMPLE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_EXAMPLE</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46BBCCC2-8461-0416-8E20-9054C6C15868" name="PK_IDIOM">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_IDIOM</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A363E5-A771-8AFF-AC0D-262E70497EEE"/>
+<colUsage columnID="966D0603-9DF1-0974-6A21-EC00C1DC13EB"/>
+<colUsage columnID="9D5DD2D8-F439-F761-0A43-60338EA7D658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DD83FCB-DAC2-C812-2063-AA966151DB49" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PK_IDIOM">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_IDIOM</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A363E5-A771-8AFF-AC0D-262E70497EEE"/>
+<colUsage columnID="966D0603-9DF1-0974-6A21-EC00C1DC13EB"/>
+<colUsage columnID="9D5DD2D8-F439-F761-0A43-60338EA7D658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B1D4D60-D334-1C0B-A330-1D01910D0BB3" name="FK01">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A363E5-A771-8AFF-AC0D-262E70497EEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9E57F6C-721D-7AF5-F7DD-1BBEC54015E8" name="FK02">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:30 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="966D0603-9DF1-0974-6A21-EC00C1DC13EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

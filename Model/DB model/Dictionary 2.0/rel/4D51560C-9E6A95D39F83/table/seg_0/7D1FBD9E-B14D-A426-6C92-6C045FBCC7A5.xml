@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D1FBD9E-B14D-A426-6C92-6C045FBCC7A5" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="PS_CODE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:08:20 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PCODE" id="C7584D62-C769-11D7-21EF-B71747567437">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:12:35 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABBR" id="098046DF-D60A-78EF-FC48-7A78FD3A0369">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:12:35 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="FC4DDF30-FFB1-52DB-DFAB-C37E81F1039B">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:12:35 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0D2B9E2-8FCF-96F3-62DE-7666CDC33334" name="PK_PS_CODE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:12:35 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7584D62-C769-11D7-21EF-B71747567437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A3F741F-704C-D366-A052-D9B4E7E047EC" name="AK_PS_CODE__ABBR">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:12:35 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098046DF-D60A-78EF-FC48-7A78FD3A0369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36242559-B2DE-AF78-749C-A83976BF5A72" name="AK_PS_CODE__NAME">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-25 14:12:35 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC4DDF30-FFB1-52DB-DFAB-C37E81F1039B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

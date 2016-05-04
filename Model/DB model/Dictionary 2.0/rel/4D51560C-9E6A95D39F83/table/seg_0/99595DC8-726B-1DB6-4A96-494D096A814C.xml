@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99595DC8-726B-1DB6-4A96-494D096A814C" schemaObject="0F54745D-CEA9-154E-67B0-6763B8871BE7" name="EXP_UNT">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-27 07:41:41 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WID" id="F82ADA73-E900-4358-AEAA-32721688ED66">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-27 07:44:54 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01F589C1-900B-4BC1-ED52-02E974513059" referredColumn="F72C94C3-C93B-7498-28EC-BE9034D089EB"/>
+</associations>
+</Column>
+<Column name="EXPSEQ" id="B5C4933F-7F84-1D17-9744-E2E582D275A2">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-27 07:44:54 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PCODE" id="FEBC1875-C8F5-10D3-9175-B9BED87C7A58">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-27 07:44:54 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCA55E94-1A8D-213D-04FB-F6C1A566AE89" referredColumn="C7584D62-C769-11D7-21EF-B71747567437"/>
+</associations>
+</Column>
+<Column name="IFLAG" id="DBDFD03E-476A-7913-39EA-C30C0B2D1D23">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-03-12 15:47:16 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECEA2E23-B8D2-BA37-D65B-9BB6D3194B8B" name="PK_EXP_UNT">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-27 07:44:54 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F82ADA73-E900-4358-AEAA-32721688ED66"/>
+<colUsage columnID="B5C4933F-7F84-1D17-9744-E2E582D275A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE226F0A-79A7-7255-192D-41EBBE9C92A6" name="FK_EXP_UNT__WORD">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-27 07:44:54 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F82ADA73-E900-4358-AEAA-32721688ED66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F898B1B-4959-1B7C-E191-9DBED6277EFB" name="FK_EXP_UNT__PS_CODE">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-02-27 07:45:38 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEBC1875-C8F5-10D3-9175-B9BED87C7A58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_EXP_UNT__IFLAG" directorySegmentName="seg_0" id="68E7CBCD-AEA3-56CD-810F-8D054C1CE193">
+<createdBy>Sabari</createdBy>
+<createdTime>2016-03-13 10:59:52 UTC</createdTime>
+<ownerDesignName>Dictionary 2.0</ownerDesignName>
+<rule>IFLAG IN (&apos;Y&apos;,&apos;N&apos;)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

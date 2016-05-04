@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C728353C-6915-1CA4-EE34-F54345DA46E9" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PART_OF_SPEECH_CODE">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PART_OF_SPEECH_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="P_CODE" id="3DE41F74-EF3A-CABE-3CF8-09AEDFC8335F">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PART_OF_SPEECH_CODE</sourceObjSchema>
+<sourceObjName>P_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABBR" id="157FB04A-B9BF-E5BB-FDC1-60CF90AA19DB">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PART_OF_SPEECH_CODE</sourceObjSchema>
+<sourceObjName>ABBR</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_ABBR</notNullConstraintName>
+</Column>
+<Column name="FULL_FORM" id="98BE39AE-F4AE-BEDB-D028-E993325B9510">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>PART_OF_SPEECH_CODE</sourceObjSchema>
+<sourceObjName>FULL_FORM</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:27 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_FULL_FORM</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F864B599-75E4-6EE7-5A71-DD84DE31E3ED" name="PK_PART_OF_SPEECH_CODE">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PART_OF_SPEECH_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:29 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DE41F74-EF3A-CABE-3CF8-09AEDFC8335F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68F1AF79-6803-12F2-970C-5FA3558CEE58" schemaObject="A28E81F1-2637-E631-A78A-B71573B68F26" name="PK_PART_OF_SPEECH_CODE">
+<sourceConnName>dictadmin</sourceConnName>
+<sourceObjSchema>C##DICT_ADMIN</sourceObjSchema>
+<sourceObjName>PK_PART_OF_SPEECH_CODE</sourceObjName>
+<createdBy>Sabari</createdBy>
+<createdTime>2016-01-26 19:17:28 UTC</createdTime>
+<ownerDesignName>Dictionary_DB_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DE41F74-EF3A-CABE-3CF8-09AEDFC8335F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
